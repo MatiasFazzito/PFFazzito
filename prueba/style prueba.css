@@ -74,3 +74,15 @@ body {
     font-family: 'Macondo', cursive;
     margin: 0;
 }
+
+@media screen and (max-width: 992px)  {
+    body {
+        font-size: 1rem;
+    }
+    .header .menu .activa{
+        font-size: 1.25rem;
+    }
+    .separador{
+        font-size: 2rem;
+    }
+}
