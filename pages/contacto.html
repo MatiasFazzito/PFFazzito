@@ -40,33 +40,46 @@
             </header>
             <main>
                 <h2 class="separador">Envianos tu consulta</h2>
-
                 <section class="seccion1">
 
                     <form>
-                        <div class="mb-3">
-                            <label for="contraseña" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="mb-3">
-                            <label for="contraseña" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="mb-3">
-                          <label for="email" class="form-label">Direccion de Email</label>
-                          <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-                          <div id="emailHelp" class="form-text">Tu direccion de email jamas sera compartida.</div>
-                        </div>
-                        <div class="mb-3">
-                          <label for="contraseña" class="form-label">Password</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="mb-3 form-check">
-                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                      </form
+                        <fieldset>
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="apellido" class="form-label">Apellido</label>
+                                <input type="text" class="form-control" id="apellido">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefono" class="form-label">Telefono</label>
+                                <input type="tel" class="form-control" id="telefono" required placeholder="(Cod de area) Numero">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Direccion de Email</label>
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                                <div id="emailHelp" class="form-text">Tu direccion de email jamas sera compartida.</div>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <div class="mb-3">
+                                <label for="consulta" class="form-label">En que podemos ayudarte?</label>
+                                <textarea class="form-control" id="consulta" rows="3" required></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <label for="imagenes" class="form-label">Mostranos el problema!</label>
+                                <input class="form-control" type="file" id="imagenes" multiple>
+                              </div>
+                              <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="tyc" required>
+                                <label class="form-check-label" for="tyc" >Acepto los terminos y condiciones.</label>
+                              </div>
+                        </fieldset>
+                        
+                        <button type="submit" class="btn btn-dark">Enviar</button>
+                        <button type="reset" class="btn btn-light">Limpiar</button>
+                    </form>
 
                     <form action="" class="continfo">
 
