@@ -3,24 +3,39 @@
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="../prueba/style.css">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Macondo&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="../prueba/style prueba.css">
             <title>TRPC-Nosotros</title>
         </head>
         <body>
-            <header class="header">
-                <img src="../multi/logotrpc.png" alt="logo" class="logo">
-                <nav>
-                    <ul class="menu">
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="./servicios.html">Servicios</a></li>
-                        <li><a href="./galeria.html">Galeria</a></li>
-                        <li><a href="./nosotros.html" class="activa">Nosotros</a></li>
-                        <li><a href="./contacto.html">Contacto</a></li>
-                    </ul>
-                </nav>
+            <header class="header container-fluid row">
+                <div class="col-12 col-lg-6">
+                    <img src="../multi/logotrpc.png" alt="logo" class="w-25 rounded-circle p-1">
+                </div>
+                <div class="col-12 col-lg-6 d-flex align-items-end">
+                    <nav class="menu w-100">
+                        <ul class="nav nav-tabs nav-justified">
+                            <li class="nav-item p-1">
+                                <a class="nav-link border-0" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item p-1">
+                                <a class="nav-link border-0" href="./servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item p-1">
+                                <a class="nav-link border-0" href="./galeria.html">Galeria</a>
+                            </li>
+                            <li class="nav-item p-1">
+                                <a class="nav-link activa" aria-current="page" href="./nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item p-1">
+                                <a class="nav-link border-0" href="./contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </header>
             <main class="main">
                 <h2 class="separador">Quienes somos</h2>
@@ -47,20 +62,31 @@
                     </p>
                 </section>
             </main>
-            <footer class="footer">
-                <div>
-                    <h2>Donde encontrarnos</h2>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8937.99810737673!2d-58.42845465364154!3d-34.601102889166135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1697156039663!5m2!1ses!2sar" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <footer class="footer container-fluid row">
+                <div class="col-12 col-lg-6">
+                    <h2 class="w-100">Donde encontrarnos</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8937.99810737673!2d-58.42845465364154!3d-34.601102889166135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1697156039663!5m2!1ses!2sar" class="w-75" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <nav class="width">
-                    <h3>Encontranos en nuestras redes!</h3>
-                    <ul class="links">
-                        <li><a href="https://wa.me/1157449265" target="_blank"><img src="../multi/whatsapp.png" alt="whatsapp" class="logo2"></a></li>
-                        <li><a href="https://www.instagram.com/tecnoreparacionpc/" target="_blank"><img src="../multi/instagram.png" alt="instagram" class="logo2"></a></li>
-                        <li><a href="https://www.facebook.com/profile.php?id=61550225652514" target="_blank"><img src="../multi/facebook.png" alt="facebook" class="logo2"></a></li>
-                        <li><a href="https://www.linkedin.com/in/matias-fazzito-0a1657214/" target="_blank"><img src="../multi/linkedin.png" alt="linkedin" class="logo2"></a></li>
-                    </ul>
-                </nav>
+                <div class="col-12 col-lg-6 d-flex align-items-end">
+                    <nav class="text-end">
+                        <h3>Encontranos en nuestras redes!</h3>
+                        <ul class="nav nav-pills d-inline-flex justify-content-end">
+                            <li class="nav-item col-2">
+                                <a class="nav-link" href="https://wa.me/1157449265"target="_blank"><img src="../multi/whatsapp.png" alt="whatsapp" class="w-75 rounded-circle"></a>
+                            </li>
+                            <li class="nav-item col-2">
+                                <a class="nav-link" href="https://www.instagram.com/tecnoreparacionpc/" target="_blank"><img src="../multi/instagram.png" alt="instagram" class="w-75 rounded-circle"></a>
+                            </li>
+                            <li class="nav-item col-2">
+                                <a class="nav-link" href="https://www.facebook.com/profile.php?id=61550225652514" target="_blank"><img src="../multi/facebook.png" alt="facebook" class="w-75 rounded-circle"></a>
+                            </li>
+                            <li class="nav-item col-2">
+                                <a class="nav-link" href="https://www.linkedin.com/in/matias-fazzito-0a1657214/"target="_blank"><img src="../multi/linkedin.png" alt="linkedin" class="w-75 rounded-circle"></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </footer>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
         </body>
     </html>
