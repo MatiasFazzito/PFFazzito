@@ -81,6 +81,14 @@ body {
     margin: 0;
 }
 
+.fotostrabajos {
+    background-color: #0096C7;
+    padding: 1%;
+    margin: 1%;
+    height: 700px;
+    overflow: auto;
+}
+
 @media screen and (max-width: 992px)  {
     body {
         font-size: 1rem;
