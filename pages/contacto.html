@@ -41,93 +41,46 @@
             <main>
                 <h2 class="separador">Envianos tu consulta</h2>
                 <section class="seccion1">
-
-                    <form>
-                        <fieldset>
-                            <div class="mb-3">
-                                <label for="nombre" class="form-label">Nombre</label>
-                                <input type="text" class="form-control" id="nombre" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="apellido" class="form-label">Apellido</label>
-                                <input type="text" class="form-control" id="apellido">
-                            </div>
-                            <div class="mb-3">
-                                <label for="telefono" class="form-label">Telefono</label>
-                                <input type="tel" class="form-control" id="telefono" required placeholder="(Cod de area) Numero">
-                            </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Direccion de Email</label>
-                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
-                                <div id="emailHelp" class="form-text">Tu direccion de email jamas sera compartida.</div>
-                            </div>
-                        </fieldset>
-                        <fieldset>
-                            <div class="mb-3">
-                                <label for="consulta" class="form-label">En que podemos ayudarte?</label>
-                                <textarea class="form-control" id="consulta" rows="3" required></textarea>
-                            </div>
-                            <div class="mb-3">
-                                <label for="imagenes" class="form-label">Mostranos el problema!</label>
-                                <input class="form-control" type="file" id="imagenes" multiple>
-                              </div>
-                              <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="tyc" required>
-                                <label class="form-check-label" for="tyc" >Acepto los terminos y condiciones.</label>
-                              </div>
-                        </fieldset>
-                        
-                        <button type="submit" class="btn btn-dark">Enviar</button>
-                        <button type="reset" class="btn btn-light">Limpiar</button>
-                    </form>
-
-                    <form action="" class="continfo">
-
-                        <fieldset>
-
-                            <label for="Nombre">Nombre</label>
-                            <input type="text" id="Nombre" placeholder="Nombre" required>
-
-                            <br>
-
-                            <label for="Apellido">Apellido</label>
-                            <input type="text" id="Apellido" placeholder="Apellido">
-
-                            <br>
-
-                            <label for="telefono">Telefono</label>
-                            <input type="tel" id="telefono" placeholder="(Cod. de area) Numero" required>
-
-                            <br>
-
-                            <label for="email">Email</label>
-                            <input type="email" id="email" placeholder="example@example.com" required>
-
-                        </fieldset>
-
-                        <fieldset>
-
-                            <label for="consulta">En que podemos ayudarte?</label>
-
-                            <br>
-
-                            <textarea name="consulta" cols="30" rows="10" required></textarea>
-
-                        </fieldset>
-
-                        <fieldset>
-
-                            <input type="submit" value="Enviar">
-
-                            <input type="reset" value="Limpiar">
-
-                            <br>
-                            <input type="checkbox" id="TyC" required> Acepto los terminos y condiciones
-
-                        </fieldset>
-
-                    </form>
-
+                    <div class="p-2 d-flex justify-content-center">
+                        <form class="col-6 continfo">
+                            <fieldset>
+                                <div class="mb-3">
+                                    <label for="nombre" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="nombre" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="apellido" class="form-label">Apellido</label>
+                                    <input type="text" class="form-control" id="apellido">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="telefono" class="form-label">Telefono</label>
+                                    <input type="tel" class="form-control" id="telefono" required placeholder="(Cod de area) Numero">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Direccion de Email</label>
+                                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <div class="mb-3">
+                                    <label for="consulta" class="form-label">En que podemos ayudarte?</label>
+                                    <textarea class="form-control" id="consulta" rows="3" required></textarea>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="imagenes" class="form-label">Mostranos el problema!</label>
+                                    <input class="form-control" type="file" id="imagenes" multiple>
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="tyc" required>
+                                    <label class="form-check-label" for="tyc">Acepto los terminos y condiciones.</label>
+                                </div>
+                            </fieldset>
+                            <fieldset class="text-center">
+                                <button type="submit" class="btn enviar">Enviar</button>
+                                <button type="reset" class="btn btn-light">Limpiar</button>
+                            </fieldset>
+                        </form>
+                    </div>
                 </section>
 
                 <h2 class="separador">Terminos y condiciones </h2>
