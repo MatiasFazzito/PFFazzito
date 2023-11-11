@@ -89,6 +89,17 @@ body {
     overflow: auto;
 }
 
+.continfo{
+    background-color: #48CAE4;
+    padding: 2%;
+    border-radius: 1%;
+}
+
+.enviar{
+    background-color: #03045E;
+    color: #ffffff;
+}
+
 @media screen and (max-width: 992px)  {
     body {
         font-size: 1rem;
