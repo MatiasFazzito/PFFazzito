@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+body{
     line-height: 1.6;
     background-color: #ADE8F4;
     font-family: 'Dosis', sans-serif;
@@ -49,31 +49,31 @@ body {
     font-size: 2.25rem;
 }
 
-.seccion1 {
+.seccion1{
     background-color: #0096C7;
     padding: 1%;
     margin: 1%;
 }
 
-.seccion2 {
+.seccion2{
     background-color: #00B4D8;
     padding: 1%;
     margin: 1%;
 }
 
-.seccion3 {
+.seccion3{
     background-color: #48CAE4;
     padding: 1%;
     margin: 1%;
 }
 
-.noticias {
+.noticias{
     background-color: #48CAE4;
     padding: 1%;
     margin: 1%;
 }
 
-.footer {
+.footer{
     padding: 1%;
     background-color: #03045E;
     color: whitesmoke;
@@ -81,7 +81,7 @@ body {
     margin: 0;
 }
 
-.fotostrabajos {
+.fotostrabajos{
     background-color: #0096C7;
     padding: 1%;
     margin: 1%;
@@ -100,7 +100,7 @@ body {
     color: #ffffff;
 }
 
-@media screen and (max-width: 992px)  {
+@media screen and (max-width: 992px){
     body {
         font-size: 1rem;
     }
