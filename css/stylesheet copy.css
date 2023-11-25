@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1.6;
+    background-color: #ADE8F4;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header {
+    background-color: #03045E;
+    margin: 0;
+    padding: 0;
+}
+
+.header .menu{
+    background-color: #ADE8F4;
+    font-family: 'Macondo', cursive;
+}
+
+.header .menu a{
+    color: black;
+}
+
+.header .menu .activa{
+    background-color: #023E8A;
+    color: white;
+    font-size: 1.75rem;
+    font-weight: bold;
+    border-radius: 100%;
+}
+
+.header .menu li:hover{
+    background-color: orange;
+    font-weight: bold;
+    border-radius: 100%;
+}
+.separador{
+    text-align: center;
+    background-color: #023E8A;
+    padding: 1%;
+    color: orange;
+    font-family: 'Macondo', cursive;
+    font-size: 2.25rem;
+}
+
+.seccion1{
+    background-color: #0096C7;
+    padding: 1%;
+    margin: 1%;
+}
+
+.seccion2{
+    background-color: #00B4D8;
+    padding: 1%;
+    margin: 1%;
+}
+
+.seccion3{
+    background-color: #48CAE4;
+    padding: 1%;
+    margin: 1%;
+}
+
+.noticias{
+    background-color: #48CAE4;
+    padding: 1%;
+    margin: 1%;
+}
+
+.footer{
+    padding: 1%;
+    background-color: #03045E;
+    color: whitesmoke;
+    font-family: 'Macondo', cursive;
+    margin: 0;
+}
+
+.fotostrabajos{
+    background-color: #0096C7;
+    padding: 1%;
+    margin: 1%;
+    height: 700px;
+    overflow: auto;
+}
+
+.continfo{
+    background-color: #48CAE4;
+    padding: 2%;
+    border-radius: 1%;
+}
+
+.enviar{
+    background-color: #03045E;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 992px){
+    body {
+        font-size: 1rem;
+    }
+    .header .menu .activa{
+        font-size: 1.25rem;
+    }
+    .separador{
+        font-size: 1.75rem;
+    }
+}
