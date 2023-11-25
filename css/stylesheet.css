@@ -1,3 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  line-height: 1.6;
+  background-color: #ADE8F4;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+body .header {
+  background-color: #03045E;
+  margin: 0;
+  padding: 0;
+}
+body .header .menu {
+  background-color: #ADE8F4;
+  font-family: "Macondo", cursive;
+}
+body .header .menu a {
+  color: black;
+}
+body .header .menu .activa {
+  background-color: #023E8A;
+  color: white;
+  font-size: 1.75rem;
+  font-weight: bold;
+  border-radius: 100%;
+}
+body .header .menu li:hover {
+  background-color: orange;
+  font-weight: bold;
+  border-radius: 100%;
+}
+
+main .separador {
+  text-align: center;
+  background-color: #023E8A;
+  margin: 0;
+  padding: 1%;
+  color: orange;
+  font-family: "Macondo", cursive;
+  font-size: 2.25rem;
+}
+main .seccion1 {
+  background-color: #0096C7;
+  margin: 1%;
+  padding: 1%;
+}
+main .seccion2 {
+  background-color: #00B4D8;
+  margin: 1%;
+  padding: 1%;
+}
+main .seccion3 {
+  background-color: #48CAE4;
+  margin: 1%;
+  padding: 1%;
+}
+main .noticias {
+  background-color: #48CAE4;
+  margin: 1%;
+  padding: 1%;
+}
+main .fotostrabajos {
+  background-color: #0096C7;
+  margin: 1%;
+  padding: 1%;
+  height: 700px;
+  overflow: auto;
+}
+main .continfo {
+  background-color: #48CAE4;
+  margin: 0;
+  padding: 2%;
+  border-radius: 1%;
+}
+main .continfo .enviar {
+  background-color: #023E8A;
+  color: white;
+}
+
+.footer {
+  margin: 0;
+  padding: 1%;
+  background-color: #03045E;
+  color: white;
+  font-family: "Macondo", cursive;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    font-size: 1rem;
+  }
+  .header .menu .activa {
+    font-size: 1.25rem;
+  }
+  .separador {
+    font-size: 1.75rem;
+  }
+}
 
 /*# sourceMappingURL=stylesheet.css.map */

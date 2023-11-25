@@ -1,0 +1,87 @@
+@import "colores";
+@import "mixin";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1.6;
+    background-color: $fondo;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    .header {
+        background-color: $azul;
+        @include espaciado(0, 0);
+        .menu{
+            background-color: $fondo;
+            font-family: 'Macondo', cursive;
+            a{
+                color: $links;
+            }
+            .activa{
+                background-color: $azul2;
+                color: $letra;
+                font-size: 1.75rem;
+                font-weight: bold;
+                border-radius: 100%;
+            }
+            li:hover{
+                background-color: $letra2;
+                font-weight: bold;
+                border-radius: 100%;
+            }
+        }
+    }
+}
+main{
+    .separador{
+        text-align: center;
+        background-color: $azul2;
+        @include espaciado(0, 1%);
+        color: $letra2;
+        font-family: 'Macondo', cursive;
+        font-size: 2.25rem;
+    }
+    .seccion1{
+        background-color: $celeste;
+        @include espaciado(1%, 1%);
+    }
+    .seccion2{
+        background-color: $celeste2;
+        @include espaciado(1%, 1%);
+    }
+    .seccion3{
+        background-color: $celeste3;
+        @include espaciado(1%, 1%);
+    }
+    .noticias{
+        background-color: $celeste3;
+        @include espaciado(1%, 1%);
+    }
+    .fotostrabajos{
+        background-color: $celeste;
+        @include espaciado(1%, 1%);
+        height: 700px;
+        overflow: auto;
+    }
+    .continfo{
+        background-color: $celeste3;
+        @include espaciado(0, 2%);
+        border-radius: 1%;
+        .enviar{
+            background-color: $azul2;
+            color: $letra;
+        }
+    }
+}
+.footer{
+    @include espaciado(0, 1%);
+    background-color: $azul;
+    color: $letra;
+    font-family: 'Macondo', cursive;
+}
+@import "media"
