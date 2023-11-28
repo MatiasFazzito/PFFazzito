@@ -40,7 +40,7 @@ body{
 main{
     .separador{
         text-align: center;
-        background-color: $azul2;
+        background: linear-gradient($azul, $azul2, $azul);
         @include espaciado(0, 1%);
         color: $letra2;
         font-family: 'Macondo', cursive;
@@ -61,6 +61,16 @@ main{
     .noticias{
         background-color: $celeste3;
         @include espaciado(1%, 1%);
+        .noticia{
+            background: linear-gradient(to left, $azul, $azul2, $azul);
+            width: 25%;
+            height: 856px;
+            @include espaciado(1%, 1%);
+            color: $letra;
+            a{
+                color: $letra;
+            }
+        }
     }
     .fotostrabajos{
         background-color: $celeste;
@@ -77,6 +87,10 @@ main{
             color: $letra;
         }
     }
+    .nos{
+        width: 40%;
+    }
+
 }
 .footer{
     @include espaciado(0, 1%);
