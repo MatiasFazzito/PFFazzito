@@ -62,9 +62,9 @@ main{
         background-color: $celeste3;
         @include espaciado(1%, 1%);
         .noticia{
-            background: linear-gradient(to left, $azul, $azul2, $azul);
-            width: 25%;
-            height: 856px;
+            background: linear-gradient(to left, $azul2, $azul, $azul2);
+            width: 30%;
+            height: 903px;
             @include espaciado(1%, 1%);
             color: $letra;
             a{
@@ -80,7 +80,6 @@ main{
     }
     .continfo{
         background-color: $celeste3;
-        @include espaciado(0, 2%);
         border-radius: 1%;
         .enviar{
             background-color: $azul2;
@@ -90,7 +89,13 @@ main{
     .nos{
         width: 40%;
     }
-
+    .informacion{
+        width: 50%;
+        @include espaciado(1%, 2%)
+    }
+    .aclaracion{
+        @include espaciado(1%, 1%)
+    }
 }
 .footer{
     @include espaciado(0, 1%);
