@@ -83,6 +83,9 @@ main .fotostrabajos {
   height: 700px;
   overflow: auto;
 }
+main .fotostrabajos .foto:hover {
+  transform: scale(1.5, 1.5);
+}
 main .continfo {
   background-color: #48CAE4;
   border-radius: 1%;
