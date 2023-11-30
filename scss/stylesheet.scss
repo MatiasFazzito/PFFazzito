@@ -72,15 +72,6 @@ main{
             }
         }
     }
-    .fotostrabajos{
-        background-color: $celeste;
-        @include espaciado(1%, 1%);
-        height: 700px;
-        overflow: auto;
-        .foto:hover{
-            transform: scale(1.5,1.5);
-        }
-    }
     .continfo{
         background-color: $celeste3;
         border-radius: 1%;
