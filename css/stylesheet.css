@@ -125,6 +125,9 @@ main .aclaracion {
   body .informacion {
     width: 90%;
   }
+  .footer .links {
+    width: 75%;
+  }
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
