@@ -130,17 +130,17 @@ body footer {
   body .header .menu .activa {
     font-size: 1.25rem;
   }
-  body .separador {
+  body main .separador {
     font-size: 1.75rem;
   }
-  body .nos {
+  body main .nos {
     width: 75%;
   }
-  body .noticias .noticia {
+  body main .noticias .noticia {
     width: 75%;
-    height: fit-content;
+    height: 550px;
   }
-  body .informacion {
+  body main .informacion {
     width: 90%;
   }
   body footer .links {

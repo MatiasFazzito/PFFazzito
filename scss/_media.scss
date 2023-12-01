@@ -4,20 +4,22 @@
         .header .menu .activa{
             font-size: 1.25rem;
         }
-        .separador{
+        main{
+            .separador{
             font-size: 1.75rem;
-        }
-        .nos{
-            width: 75%;
-        }
-        .noticias{
-            .noticia{
-                width: 75%;
-                height: fit-content;
             }
-        }
-        .informacion{
-            width: 90%;
+            .nos{
+            width: 75%;
+            }
+            .noticias{
+                .noticia{
+                width: 75%;
+                height: 550px;
+                }
+            }
+            .informacion{
+                width: 90%;
+            }
         }
         footer{
             .links{
