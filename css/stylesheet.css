@@ -115,6 +115,10 @@ body main .tabla .tabla2 {
   color: black;
   text-align: center;
 }
+body main .TyC {
+  margin: 1%;
+  padding: 1%;
+}
 body .footer {
   margin: 0;
   padding: 1%;
@@ -142,6 +146,9 @@ body .footer {
   }
   body main .informacion {
     width: 90%;
+  }
+  body main .contInfo {
+    width: 80%;
   }
   body .footer .links {
     width: 75%;
