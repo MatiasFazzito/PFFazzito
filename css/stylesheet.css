@@ -115,7 +115,7 @@ body main .tabla .tabla2 {
   color: black;
   text-align: center;
 }
-body footer {
+body .footer {
   margin: 0;
   padding: 1%;
   background-color: #03045E;
@@ -143,7 +143,7 @@ body footer {
   body main .informacion {
     width: 90%;
   }
-  body footer .links {
+  body .footer .links {
     width: 75%;
   }
 }

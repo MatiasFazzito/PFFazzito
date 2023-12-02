@@ -110,7 +110,7 @@ body{
                
         }
     }
-    footer{
+    .footer{
         @include espaciado(0, 1%);
         background-color: $azul;
         color: $letra;
