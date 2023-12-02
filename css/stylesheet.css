@@ -67,7 +67,7 @@ body main .noticias {
 body main .noticias .noticia {
   background: linear-gradient(to left, #023E8A, #03045E, #023E8A);
   width: 30%;
-  height: 903px;
+  height: 800px;
   margin: 1%;
   padding: 1%;
   color: white;
@@ -138,7 +138,7 @@ body footer {
   }
   body main .noticias .noticia {
     width: 75%;
-    height: 550px;
+    height: 580px;
   }
   body main .informacion {
     width: 90%;
