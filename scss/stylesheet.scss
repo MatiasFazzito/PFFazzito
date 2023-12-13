@@ -131,11 +131,13 @@ body{
         color: $letra2;
         font-family: 'Macondo', cursive;
         .tituloError{
-            font-size: 10rem;
+            font-size: 8.5rem;
+            @include espaciado(0,1%);
         }
         .textoError{
-            font-size: 3rem;
+            font-size: 2.5rem;
             color: black;
+            @include espaciado(0,1%);
         }
     }
 }
