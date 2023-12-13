@@ -126,6 +126,27 @@ body .footer {
   color: white;
   font-family: "Macondo", cursive;
 }
+body .footer .links:hover {
+  scale: 1.2;
+}
+body .headerError {
+  background-color: #03045E;
+  margin: 0;
+  padding: 0;
+}
+body .error {
+  background-image: linear-gradient(to bottom, #03045E, #ADE8F4);
+  text-align: center;
+  color: orange;
+  font-family: "Macondo", cursive;
+}
+body .error .tituloError {
+  font-size: 10rem;
+}
+body .error .textoError {
+  font-size: 3rem;
+  color: black;
+}
 
 @media screen and (max-width: 992px) {
   body {

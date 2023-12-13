@@ -117,6 +117,26 @@ body{
         background-color: $azul;
         color: $letra;
         font-family: 'Macondo', cursive;
+        .links:hover{
+            scale: 1.2;
+        }
+    }
+    .headerError{
+        background-color: $azul;
+        @include espaciado(0,0)
+    }
+    .error{
+        background-image: linear-gradient(to bottom, $azul, $fondo);
+        text-align: center;
+        color: $letra2;
+        font-family: 'Macondo', cursive;
+        .tituloError{
+            font-size: 10rem;
+        }
+        .textoError{
+            font-size: 3rem;
+            color: black;
+        }
     }
 }
 
